@@ -1,0 +1,12 @@
+* Week 2:
+    → debugging, through printf and debugger
+    → compile through clang, not make
+    → Under the hood of compiling:
+        - prepossesing -> finds method declarations from header files to perform in-build functions existing because of that header files.
+        - compiling -> Converts the code into assembly code.
+        - assemling -> Converts the assembly code into source code, converts all the code including header files code.
+        - linking -> linking our code with header files source code.
+    → Array
+    → Array of characters (string)
+    → NUL / '\0'
+
