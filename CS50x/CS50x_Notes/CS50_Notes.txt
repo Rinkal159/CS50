@@ -10,3 +10,25 @@
     → Array of characters (string)
     → NUL / '\0'
 
+* Week 3:
+    → Attendence check
+    → Array is like a locker, we need to open the locker to see what's inside that, close that locker and move on to the next locker(index). c can access only one value at a time.
+    → linear search and binary search
+    → Time complexity:
+        big O : for "worst" case, the code will not take more than this time.
+        omega : for "best" case, the code will take atleast this time.
+        theta : for "average" case, the code will take exact this order of time.
+    → asymptotic notation : how fast an algorithm grows as input grows.
+        when n becomes larger:
+            this notation tells us:
+                - which algorithm is faster?
+                - which one scales better?
+    → Struct
+    → Sorting
+    → Selection Sort
+    → Bubble Sort
+    → Recursion
+    → Print half pyraid using backtracking.
+    → Merge sort
+    → The comparison of time in solving a sorting problem using three different sorts- bubble sort(takes the max time), merge sort(takes the min time) and selection sort(takes more than ,erge, but less than bubble).
+
