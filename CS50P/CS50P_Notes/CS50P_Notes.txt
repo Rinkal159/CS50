@@ -1,0 +1,17 @@
+* Week 2 : Loops
+* --------------
+
+→ Python does not have unary increment or decrement operators. i-- or i++ is not possible in Python.
+
+→ if you want to print a thing multiple times
+    print("hello\n" * 5, end="")
+
+→ python does not have "do-while" loop, so when you want a user input that matches a certain expectation then infinite while loop with break is used.
+    while True:
+        n = int(input("n: "))
+        if (n > 1):
+            break
+    
+    for _ in range(n):
+        print("*" * n)
+
