@@ -32,3 +32,27 @@
     → Merge sort
     → The comparison of time in solving a sorting problem using three different sorts- bubble sort(takes the max time), merge sort(takes the min time) and selection sort(takes more than ,erge, but less than bubble).
 
+
+* Week 4: Memory
+    → rgb and pixels - representation of FF as 255, this FFFFFF stands for white and more colors.
+    → hexadecimal
+    → know memory address using & and format specifier %p
+    → pointer
+        int *p = &a;
+            meaning, a "pointer" 'p' stores "address" of 'a'
+    → strcmp
+        s == t (it compares address of the firts characters of those two string)
+        strcmp(s, t) (it compares character by character)
+    → malloc and free 
+    → NULL
+    → valgrind (is like dubug50 - a debugger tool)
+    → swapping through pointers
+    → scanf
+    → file operation - fopen, fclose, fread, fwrite, fprintf, fscanf, fseek, etc..
+
+    ^ Doug lloys'd important videos:
+        → Defining custom data types
+        → Dynamic memory allocations - last exercise
+        → call stack - factorial exercise, go to factorial.c
+
+
