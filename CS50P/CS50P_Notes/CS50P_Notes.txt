@@ -15,3 +15,33 @@
     for _ in range(n):
         print("*" * n)
 
+
+& ----------------------------------------------------------------------------------------------------------- 
+
+* Week 3 : Exceptions
+* -------------------
+
+! SyntaxError : 
+    → errors made by programmers
+! ValueError : 
+    → incorrect output - if the system wants an int input, but user types a string
+! NameError : 
+    → calling a variable before its existence
+! IndexError:
+    → index out of range
+
+
+^ try-except-else:
+else block will execute when the catch block will not execute, meaning everthing is fine inside try block, there's no exception.
+   
+example:
+    while True:
+        try:
+            x = int(input("what's x: "))
+        except ValueError:
+            pass #to silently ignore the catch block, if the error occured, don't do anything
+        else:
+            print(f"x is {x}")
+            break
+
+
