@@ -44,4 +44,72 @@ example:
             print(f"x is {x}")
             break
 
+& ----------------------------------------------------------------------------------------------------------- 
+
+
+* Week 4 : Libraries
+* -------------------
+
+^ Random module:
+^ _____________
+
+& random.choice(list)
+    → randomly choosing item from a list
+   
+& random.randInt(start, end)
+    → randomly giving ineteger numbers between start and end - end value will also be considered
+
+& rabdom.shuffle(list)
+    → shuffles the elements of a list, rearrange them everytime it is called.
+        example
+           list = [1, 2, 3, 4, 5]
+           random.shuffle(list) - it returns nothing
+           print(list)
+           
+           
+^ Sys module: (Command line arguments)
+^ ____________________________________
+
+& sys.argv
+    → allows us to access command line arguments from the user. arguments starts from argv[1]
+   
+& len(sys.argv)
+    → tells total number of CLA
+   
+→ python name.py Rinkal Singapuri - 3 CLA
+→ python name.py "Rinkal Singapuri" - 2 CLA
+→ Commad Line Arguments enclosed within double quotes considered as one argument
+
+→ It's better to separate main logic from if-else code or exception handling code. 
+
+→ If you have defined your own module, and wrote all the code in 'main()' function then when you call that module in another python file then main() function will execute first then that specific functionality.
+for example,
+    &base.py file,
+    def main():
+        hello("World!") 
+
+    def hello(name):
+        print(f"Hello, {name}!")
+    
+    main()
+
+    &say.py file,
+    from base import Hello
+
+    name = input("Name: ")
+    hello(name)
+
+    &output:
+    Hello, World!
+    Hello, Rinkal!
+
+    → to avoid this, write following line of code in module file:
+        if __name__ == "__main__":
+            main()
+
+        now, main() is only called when you run the program from terminal, if you call a module, then main()    function will not be called.
+
+
+& ----------------------------------------------------------------------------------------------------------- 
+
 
