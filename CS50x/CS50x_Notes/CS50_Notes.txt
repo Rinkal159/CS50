@@ -56,3 +56,15 @@
         → call stack - factorial exercise, go to factorial.c
 
 
+* Week 6: Python
+    → Wrote C codes in python, mostly problem sets problem code of week 4 and week 5.
+    → functions
+    → modules and packages
+    → positional and keyword arguments
+    → OOP - difference between tolower(ch) and s.lower(), second is method, first is function that takes        character as an argument and converts it into lower case.
+    truncation (floor division) and :.<length>f
+    → else in for loop
+    → dictionary
+    → QR code generator
+
+
